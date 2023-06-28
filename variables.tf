@@ -6,9 +6,14 @@ variable "location" {
   description = "The Azure Region in which all resources in this example should be created."
   type        = string
 }
+variable "resource_group_name" {
+  description = "The name of the resource group in which to create the availability set."
+  type        = string
+}
 variable "managed" {
   description = "Is this an availability set managed by Azure?"
   type        = bool
+  default     = true
 }
 variable "platform_fault_domain_count" {
   description = "The number of fault domains that the availability set should have."
