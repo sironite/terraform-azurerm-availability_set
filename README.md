@@ -44,7 +44,8 @@ No modules.
 |------|-------------|------|:--------:|
 | availability\_set\_name | The name of the availability set | `string` | yes |
 | location | The Azure Region in which all resources in this example should be created. | `string` | yes |
-| managed | Is this an availability set managed by Azure? | `bool` | yes |
+| resource\_group\_name | The name of the resource group in which to create the availability set. | `string` | yes |
+| managed | Is this an availability set managed by Azure? | `bool` | no |
 | platform\_fault\_domain\_count | The number of fault domains that the availability set should have. | `number` | no |
 | platform\_update\_domain\_count | The number of update domains that the availability set should have. | `number` | no |
 | proximity\_placement\_group\_id | The ID of the proximity placement group to associate with the availability set. | `string` | no |
