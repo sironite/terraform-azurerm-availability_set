@@ -1,6 +1,6 @@
-# Terraform module | AzureRM - Availability Set for Virtual Machines
+# Terraform module | AzureRM - Invullen
 
-This Terraform module is designed to create a Availability Set for Virtual Machines for Azure.
+This Terraform module is designed to create a Invullen for Azure.
 
 ## Pre-requisites
 
@@ -9,7 +9,7 @@ Using the modules requires the following pre-requisites:
 
 ## Usage
 
-`azurerm_availability_set`
+`Invullen`
 
 ```hcl
 

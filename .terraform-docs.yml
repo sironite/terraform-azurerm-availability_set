@@ -8,9 +8,9 @@ content: |-
 
   # Usage - Module
 
-  ## Availability Set for Virtual Machines
+  ## Network Watcher Flow Log
   ```hcl
-  {{ include "examples/as/main.tf" }}
+  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
   ```
 
   {{ .Providers }}
