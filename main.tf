@@ -1,6 +1,7 @@
 resource "azurerm_availability_set" "example" {
   name     = var.availability_set_name
   location = var.location
+  resource_group_name = var.resource_group_name
   managed  = var.managed
 
   platform_fault_domain_count  = var.platform_fault_domain_count
